@@ -541,7 +541,7 @@ end
 --||	     WEAPON CREATION
 --\\=================================//
 
-local FACE = CreatePart(3, Weapon, "Neon", 0, 0, "Dark orange", "Face mask", VT(1.001,1.001,1.001),false)
+local FACE = CreatePart(3, Weapon, "Neon", 0, 0, "Really black", "Face mask", VT(1.001,1.001,1.001),false)
 CreateWeldOrSnapOrMotor("Weld", FACE, Head, FACE, CF(0.02,0,0) * ANGLES(RAD(0), RAD(0), RAD(0)), CF(0, 0, 0))
 MakeForm(FACE,"Head")
 local EYE = CreatePart(3, Weapon, "Neon", 0, 0, "Tr. Red", "Eye", VT(0.1,0.25,0.2),false)
